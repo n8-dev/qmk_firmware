@@ -6,8 +6,6 @@
 #define DIODE_DIRECTION COL2ROW
 
 #define TAPPING_TERM_PER_KEY
-#define IGNORE_MOD_TAP_INTERRUPT //using with LT
-
 #define TAP_CODE_DELAY 10
 
 //to differentiate left and right PCBs with pro micro USB-C

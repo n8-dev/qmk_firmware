@@ -386,8 +386,9 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
         // case LALT_T(KC_S):
         // case LALT_T(KC_L):
         //     return TAPPING_TERM + 200;
-        // default:
-        //     return TAPPING_TERM + 200;
+        default:
+            // return TAPPING_TERM + 200;
+            return TAPPING_TERM;
     }
 }
 #endif
