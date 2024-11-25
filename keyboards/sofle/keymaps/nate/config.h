@@ -11,3 +11,6 @@
 //to differentiate left and right PCBs with pro micro USB-C
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2500
+
+// #define ENCODER_RESOLUTION 3
+// #define ENCODER_RESOLUTION_RIGHT 2
